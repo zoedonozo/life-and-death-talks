@@ -4,13 +4,57 @@
     <!-- lang="en": This attributes specifies that the primary language of the page is English, which helps screen readers and search engines interpret the content. -->
 <head>
     <!-- charset="UTF-8": This sets the character encoding so that letters, punctuation, and special symbols are displayed correctly. -->
-    <meta charset="UTF-8"
+    <meta charset="UTF-8">
     <!-- This tells mobile browsers to match the page width to the device screen, which supports responsive display on smaller devices. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This defines the page title, which appears  in the browser tab in the search engine results. -->
     <title>Life &amp; Death Talks | Lessons from Grief</title>
 </head>
+<!-- body: This element contains all the visible content of the webpage, such as heading, text, and images. -->
 <body>
-    <!-- body: This element contains all the visible content of the webpage, such as heading, text, and images. -->
+    <!-- header: This groups the site name and tagline at the top of the page. -->
+    <header>
+        <h1>Life &amp; Death Talks</h1>
+    <p>Tagline goes here</p>
+    </header>
+
+    <!-- nav: This holds the main menu links. Below is a list because a menu is a group of related links, and each link jumps to a section with a matching id. -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="#reflections">Reflections</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- main: This contains the central concent of the page, and a page should only have one. -->
+<main>
+    <!-- article: This is a self-contained piece of content, and I used it for the featured post. -->
+    <article id="home">
+        <!-- This is the featured post content-->
+    </article>
+
+    <!-- section: This groups the related content together. The id is what allows the nav link to jump to the section.-->
+    <section id="stories">
+        <!-- This is where the stories will be displayed-->
+
+    </section>
+
+    <section id="reflections">
+        <!-- This is where the reflections will be displayed -->
+    </section>
+</main>
+
+<!-- aside: This holds the side content that supports the main content, such as the About Me section in my sketch. -->
+<aside id="about">
+    <!-- This is the About Me section -->  
+</aside>
+
+<!-- footer: This holds the footer content, such as copyright information at the bottom of the page. -->
+ 
+<footer>
+    <p>Copyright</p>
+</footer>
 </body>
 </html>
